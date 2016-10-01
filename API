@@ -1,0 +1,33 @@
+// get market info:
+GET:
+http://cis2016-exchange1.herokuapp.com/api/market_data/0001
+
+// check team status:
+GET:
+http://cis2016-teamtracker.herokuapp.com/api/teams/eq4AhC7jNFk8rAsEOfCH6g
+
+// place market order:
+POST:
+http://cis2016-exchange1.herokuapp.com/api/orders
+{
+	"team_uid": "eq4AhC7jNFk8rAsEOfCH6g",
+	"symbol": "0001",
+	"side": "sell",
+	"qty": 1,
+	"order_type": "market"
+}
+
+// place limit order:
+POST:
+http://cis2016-exchange1.herokuapp.com/api/orders
+{
+	"team_uid": "eq4AhC7jNFk8rAsEOfCH6g",
+	"symbol": "0001",
+	"side": "sell",
+	"qty": 1,
+	"order_type": "limit"
+}
+
+// cancel limit order:
+DELETE:
+http://cis2016-exchange1.herokuapp.com/api/orders/{order_id}
