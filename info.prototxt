@@ -1,0 +1,21 @@
+{
+    "3988": null,
+    "id": 25,
+    "name": "HW311",
+    "uid": "eq4AhC7jNFk8rAsEOfCH6g",
+    "members": "[\"Devin Zhang\", \"Marx Huang\", \"Derun Gu\", \"Ellison Gao\", \"Zhengyang Xia\"]",
+    "cash": "1000000.0",
+    "reserved_cash": null,
+    "0001": null,
+    "0388": null,
+    "0005": null,
+    "0386": null,
+    "0001_reserved": null,
+    "0388_reserved": null,
+    "0005_reserved": null,
+    "0386_reserved": null,
+    "3988_reserved": null,
+    "stages_complete": [],
+    "created_at": "2016-10-01T01:51:00.134Z",
+    "updated_at": "2016-10-01T01:51:00.134Z"
+  }
